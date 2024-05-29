@@ -11,17 +11,31 @@
                 width: 200px;
                 margin: 3px;
             }
-            .centerbox{
+            .centerbox1{
                 background-color: antiquewhite;
+                
+                justify-content: center;
                 position: absolute;
+                align-items: center;
+                height: 80px;
+                width: 100%;
+                margin: 3px;
+                transform: translate(-50%, -50%);
                 top: 50%;
-                max-height: 50px;
-                width: fit-content;
+                left: 50%;
+            }
+            .centerbox2{
+                position: absolute;
+                transform: translate(-50%, -50%);
+                top: 50%;
+                left: 50%;
+                width: 100%;
+                max-height: 60px;
                 border-top: 2px solid black;
                 border-bottom: 2px solid black;
                 overflow-y: scroll;
             }
-        
+
         </style>
     </head>
     <body>
@@ -40,13 +54,13 @@
                     </td>
                 </tr>
             </table>
-            
-            <div class="centerbox">
+        <div class="centerbox1">
+            <div class="centerbox2">
 
                 A tactic is a new addition to the site. It is what users have called out for as their main pain point. The primary audience of the site, Exercise Designers,  have previously been digging through various internal systems to find some written material that describes a war tactic and package it up with other material to produce their training.  Tactics are now audiovisual content classified with taxonomies so it would dynamically appear within the relevant training scenario pages or be searched for through the Tactics Hub.  Each tactic is supported by relevant Resources, eLearning modules and links to internal systems for Defence Force classified material. 
 
             </div>
-
+        </div>
 
         </div>
     </body>

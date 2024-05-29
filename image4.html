@@ -5,17 +5,13 @@
                 font-family: Arial, Helvetica, sans-serif;
                 color: navy;
             }
-            .contaner{
-                position: relative;
-                width: 180px;
-                height: fit-content;
-                background-color: bisque;
-            }
+
             .box {
                 display: inline-block;
                 background-color: #E7E7E7;
-                box-shadow: 1px 1px 1px 1px gray;
+                box-shadow: 0 0 2px 1px gray;
                 text-align: center;
+                align-items: center;
                 padding: 2pt;
                 margin: 2pt;
                 width: 20px;
@@ -25,42 +21,45 @@
     </head>
     <body>
         
-        <div class="contaner">
-            <div style="position: absolute; left: 0px; top: 0px;">
-                <div>
-                    <span class="box">K</span>
-                </div>
-                <div>
-                    <span class="box">25</span>
-                    <span class="box">26</span>
-                </div>
-                <div>
-                    <span class="box">23</span>
-                    <span class="box">24</span>
-                </div>
-                <div>
-                    <span class="box">21</span>
-                    <span class="box">22</span>
-                </div>
-            </div>
 
-            <div style="position: absolute; right: 0px;">
-                <div>
-                    <span class="box">P</span>
-                </div>
-                <div>
-                    <span class="box">47</span>
-                    <span class="box">48</span>
-                </div>
-                <div>
-                    <span class="box">45</span>
-                    <span class="box">46</span>
-                </div>
-                <div>
-                    <span class="box">43</span>
-                    <span class="box">44</span>
-                </div>
-            </div>
-        </div>
+        <table style="background-color: aliceblue; padding: 5px;">
+            <tr>
+                <td><div>
+                    <div>
+                        <span class="box">K</span>
+                    </div>
+                    <div>
+                        <span class="box">25</span>
+                        <span class="box">26</span>
+                    </div>
+                    <div>
+                        <span class="box">23</span>
+                        <span class="box">24</span>
+                    </div>
+                    <div>
+                        <span class="box">21</span>
+                        <span class="box">22</span>
+                    </div>
+                </div></td>
+                <td style="width: 50px;"></td>
+                <td><div>
+                    <div>
+                        <span class="box">P</span>
+                    </div>
+                    <div>
+                        <span class="box">47</span>
+                        <span class="box">48</span>
+                    </div>
+                    <div>
+                        <span class="box">45</span>
+                        <span class="box">46</span>
+                    </div>
+                    <div>
+                        <span class="box">43</span>
+                        <span class="box">44</span>
+                    </div>
+                </div></td>
+            </tr>
+        </table>
     </body>
 </html>
